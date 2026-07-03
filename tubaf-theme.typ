@@ -67,7 +67,7 @@
   speaker: "",
   talk-title: "",
 ) = context [
-  #let n = counter(page).get().first()
+  #let n = toolbox.slide-number
 
   #place(
     bottom + left,
