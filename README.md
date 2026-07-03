@@ -25,7 +25,7 @@ Designed for
 
 ## Dependencies
 
-- [Typst](https://github.com/typst/typst) 
+You can get sources and pre-built binaries for the latest release of Typst from the [releases page](https://github.com/typst/typst/releases). 
 
 ## Installation
 
