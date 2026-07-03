@@ -25,7 +25,7 @@ Designed for
 
 ## Quick start
 
-```{ypst
+```typst
 #import "@preview/polylux:0.4.0": *
 #import "tubaf-theme.typ": *
 
