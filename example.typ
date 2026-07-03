@@ -7,7 +7,7 @@
 )
 
 #set page(paper: "presentation-16-9")
-#set text(size: 24pt, font: "Fira Sans")
+#set text(size: 24pt, font: "Arial")
 
 #let spacer = v(6mm)
 

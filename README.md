@@ -1,1 +1,66 @@
-# typst-tubaf-polylux
+# TUBAF polylux theme
+
+A Polylux theme for Typst that follows the corporate design of the TU Bergakademie Freiberg.
+
+Designed for
+- lectures
+- student seminars
+- conference talks
+- thesis defences
+
+## Features
+
+- follows the TU Bergakademie Freiberg corporate design
+- built on Polylux
+- lightweight and easy to customise
+- native Typst syntax
+- code highlighting
+- mathematical typesetting
+- automatic slide numbering
+- PDF output
+
+## Quick start
+
+```{ypst
+#import "@preview/polylux:0.4.0": *
+#import "tubaf-theme.typ": *
+
+#set page(paper: "presentation-16-9")
+#set text(size: 24pt, font: "Arial")
+
+#show: tubaf-theme.with(
+  title: "My Presentation",
+  author: "Jane Doe",
+  institute: "TU Bergakademie Freiberg",
+)
+
+#slide(title: [Introduction])[
+
+Hello World.
+]
+
+```
+
+## Installation
+
+```shell
+git clone https://github.com/ruboerner/typst-tubaf-polylux 
+```
+
+## Philosophy
+
+This template intentionally keeps the visual design simple.
+It aims to reproduce the official appearance of TU Bergakademie Freiberg while taking advantage of `typst`'s modern typesetting capabilities.
+The focus is on readable scientific presentatiosn rather than decorative slide design.
+
+## Dependencies
+
+- [Typst](https://github.com/typst/typst) 
+
+## Acknowledgements
+
+Built upon the excellent Polylux presentation framework.
+
+## License
+
+This packages is under a Creative Commons License.
