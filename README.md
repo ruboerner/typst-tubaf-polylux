@@ -10,6 +10,8 @@ Designed for
 
 ![](screenshot.png)
 
+![](screenshot02.png)
+
 ## Features
 
 - follows the TU Bergakademie Freiberg corporate design
