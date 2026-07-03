@@ -8,6 +8,8 @@ Designed for
 - conference talks
 - thesis defences
 
+![](screenshot.png)
+
 ## Features
 
 - follows the TU Bergakademie Freiberg corporate design
