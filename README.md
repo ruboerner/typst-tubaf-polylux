@@ -1,4 +1,4 @@
-# TUBAF polylux theme
+# Unofficial TUBAF `typst` presentation theme
 
 A Polylux theme for Typst that follows the corporate design of the TU Bergakademie Freiberg.
 
