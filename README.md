@@ -55,7 +55,7 @@ git clone https://github.com/ruboerner/typst-tubaf-polylux
 
 This template intentionally keeps the visual design simple.
 It aims to reproduce the official appearance of TU Bergakademie Freiberg while taking advantage of `typst`'s modern typesetting capabilities.
-The focus is on readable scientific presentatiosn rather than decorative slide design.
+The focus is on readable scientific presentations rather than decorative slide design.
 
 ## Dependencies
 
