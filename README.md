@@ -23,7 +23,13 @@ Designed for
 - automatic slide numbering
 - PDF output
 
+## Dependencies
+
+- [Typst](https://github.com/typst/typst) 
+
 ## Quick start
+
+Once you have installed `typst`, create a file, e.g., `slides.typ` with the following content: 
 
 ```typst
 #import "@preview/polylux:0.4.0": *
@@ -44,6 +50,19 @@ Hello World.
 ]
 
 ```
+You can compile a PDF using
+
+```shell
+typst compile slides.typ
+```
+ 
+## Recommended editor
+
+The best authoring experience is provided by **Visual Studio Code**
+together with the **Tinymist** extension. It offers live preview,
+syntax highlighting, autocompletion, diagnostics, and forward search,
+making it the recommended environment for developing Typst
+presentations.
 
 ## Installation
 
@@ -57,9 +76,6 @@ This template intentionally keeps the visual design simple.
 It aims to reproduce the official appearance of TU Bergakademie Freiberg while taking advantage of `typst`'s modern typesetting capabilities.
 The focus is on readable scientific presentations rather than decorative slide design.
 
-## Dependencies
-
-- [Typst](https://github.com/typst/typst) 
 
 ## Acknowledgements
 
