@@ -27,6 +27,12 @@ Designed for
 
 - [Typst](https://github.com/typst/typst) 
 
+## Installation
+
+```shell
+git clone https://github.com/ruboerner/typst-tubaf-polylux 
+```
+
 ## Quick start
 
 Once you have installed `typst`, create a file, e.g., `slides.typ` with the following content: 
@@ -56,7 +62,7 @@ You can compile a PDF using
 typst compile slides.typ
 ```
  
-## Recommended editor
+## Recommended Editor
 
 The best authoring experience is provided by **Visual Studio Code**
 together with the **Tinymist** extension. It offers live preview,
@@ -64,11 +70,6 @@ syntax highlighting, autocompletion, diagnostics, and forward search,
 making it the recommended environment for developing Typst
 presentations.
 
-## Installation
-
-```shell
-git clone https://github.com/ruboerner/typst-tubaf-polylux 
-```
 
 ## Philosophy
 
